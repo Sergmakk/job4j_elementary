@@ -20,7 +20,7 @@ public class Converter {
         boolean passed1 = expectedeuro == out1;
         float indollar = 140;
         float expecteddollar = 3;
-        float out2 = Converter.rubleToEuro(indollar);
+        float out2 = Converter.rubleToDollar(indollar);
         boolean passed2 = expecteddollar == out2;
         System.out.println("140 rubles are " + euro + " euro." + passed1);
         System.out.println("140 rubles are " + dollar + " dollar." + passed2);
