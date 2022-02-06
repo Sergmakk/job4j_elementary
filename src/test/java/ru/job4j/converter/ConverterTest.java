@@ -13,7 +13,7 @@ public class ConverterTest {
         float expectedeuro = 3;
         float out1 = Converter.rubleToEuro(ineuro);
         float eps1 = 0.0001f;
-        Assert.assertEquals(expectedeuro, out1, eps1);;
+        Assert.assertEquals(expectedeuro, out1, eps1);
     }
 
     @Test
@@ -23,13 +23,5 @@ public class ConverterTest {
         float out2 = Converter.rubleToDollar(indollar);
         float eps2 = 0.0001f;
         Assert.assertEquals(expecteddollar, out2, eps2);
-    }
-
-    @Test
-    public void testRubleToEuro() {
-    }
-
-    @Test
-    public void testRubleToDollar() {
     }
 }
